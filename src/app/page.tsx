@@ -1,7 +1,10 @@
 import React from "react";
+import Header from "./_components/header/Header";
 
 export default function Home() {
   return (
-    <div className="bg-red-400 h-screen w-full text-3xl">Hello World!!!</div>
+    <div className="pt-10 lg:pt-20">
+      <Header />
+    </div>
   );
 }

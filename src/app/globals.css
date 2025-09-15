@@ -1,26 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monda:wght@400..700&display=swap");
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-monda: "Monda", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --color-background: #f8f9fa;
+  --color-bg-gray: #9ca3af;
+  --color-gray-muted: #6b7280;
+  --color-text: #111111;
+  --color-accent-blue: #2563eb;
+  /* --color-card: #ffffff;
+  --color-border: #d1d5db;
+  --color-text-muted: #6b7280;
+  --color-text-disabled: #9ca3af;
+  --color-accent-purple: #7c3aed;
+  --color-hover: #eff6ff; */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Global Reset  */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  transition-delay: 9999s !important;
+  transition-property: background-color, color !important;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-family: var(--font-inter);
+  background-color: var(--color-background);
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
 }
