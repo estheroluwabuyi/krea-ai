@@ -2,11 +2,12 @@ import { features } from "@/app/data/features";
 import Image from "next/image";
 import { FaChevronDown } from "react-icons/fa";
 
-function Main() {
+function Features() {
   return (
-    <main className="lg:px-12 ">
+    // <main className="lg:px-12 ">
+    <>
       <div className="flex justify-between items-center">
-        <h2 className="font-bold text-[1.7rem] lg:text-[2rem] my-5">
+        <h2 className="font-bold text-[1.5rem] lg:text-[1.95rem] my-5">
           Generate
         </h2>
         <button className="text-accent-blue flex gap-3 items-center font-semibold">
@@ -14,7 +15,7 @@ function Main() {
         </button>
       </div>
 
-      <ul className="w-full grid grid-cols-4 gap-x-10 gap-y-7 ">
+      <ul className="w-full grid grid-cols-4 gap-x-10 gap-y-7 pb-10">
         {features?.map((feature) => (
           <li
             key={feature.id}
@@ -25,34 +26,38 @@ function Main() {
                 <div
                   className={
                     feature.rounded
-                      ? `rounded-full border-dashed border-2  bg-bg-gray/15 p-1 w-[30px] h-[30px] grid place-items-center`
+                      ? `rounded-full border-dashed border-2  border-bg-gray/70 p-0.5 w-[28px] h-[28px] grid place-items-center`
                       : `${feature.bgColor} p-2.5 rounded-[7px] w-[30px]`
                   }
                 >
                   <Image
                     src={feature.img}
                     alt={feature.title}
-                    width={15}
-                    height={15}
-                    className={feature.id === 3 ? "rotate-80" : "rotate-0"}
+                    width={28}
+                    height={28}
+                    className={
+                      feature.id === 3 ? "rotate-80 " : "rotate-0  p-0.5"
+                    }
                   />
                 </div>
               ) : (
                 <div
                   className={`${feature.bgColor} p-2.5 rounded-[7px] text-[15px] text-background`}
                 >
-                  <feature.icon />
+                  {feature.icon && (
+                    <feature.icon className="text-[18px] text-background" />
+                  )}
                 </div>
               )}
             </div>
 
             <div className="leading-tight">
-              <div className="flex gap-3 items-center font-semibold  text-[1.18rem]">
+              <div className="flex gap-3 items-center font-semibold  text-[1.17rem]">
                 <h2 className="">{feature.title}</h2>
                 {feature.isNew && (
-                  <button className="bg-accent-blue text-background py-1 px-2.5 rounded-2xl text-[1rem] ">
+                  <div className="bg-accent-blue text-background py-1 px-2.5 rounded-2xl text-[1rem] ">
                     New
-                  </button>
+                  </div>
                 )}
               </div>
               <p className="text-text/80 leading-[15px] w-[200px] text-[1.14rem]">
@@ -60,14 +65,17 @@ function Main() {
               </p>
             </div>
 
-            <button className="bg-bg-gray/15 px-6 py-2 rounded-4xl font-semibold">
+            <button className="bg-bg-gray/15 px-6 py-2 rounded-4xl font-semibold  text-[1.17rem]">
               Open
             </button>
           </li>
         ))}
       </ul>
-    </main>
+    </>
   );
 }
 
-export default Main;
+export default Features;
+
+// RiLogoutBoxRFill
+// BsCreditCardFill
