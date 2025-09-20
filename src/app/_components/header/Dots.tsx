@@ -10,17 +10,17 @@ export default function Dots() {
           <div
             key={dot}
             className={`w-3 h-3 rounded-full ${
-              dot === 0 ? "bg-text" : "bg-gray-muted/40"
+              dot === 0 ? "bg-text" : "bg-bg-gray/30"
             }`}
           ></div>
         ))}
       </div>
 
       <div className="flex gap-2 ">
-        <button className="bg-gray-muted/40 p-1.5 rounded-full">
+        <button className="bg-bg-gray/15 p-1.5 rounded-full">
           <FaChevronLeft size={18} />
         </button>
-        <button className="bg-gray-muted/40 p-1.5 rounded-full">
+        <button className="bg-bg-gray/15 p-1.5 rounded-full">
           <FaChevronRight size={18} />
         </button>
       </div>

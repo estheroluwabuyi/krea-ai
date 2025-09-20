@@ -67,7 +67,7 @@ function Hero() {
                   src="/images/bottle2.png"
                   alt="bottle"
                   width={150}
-                  height={150}
+                  height={300}
                   className="w-[140px] h-auto -rotate-27 object-contain"
                 />
               </div>

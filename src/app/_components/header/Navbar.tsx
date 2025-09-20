@@ -8,7 +8,6 @@ import {
   FaVideo,
 } from "react-icons/fa";
 import { FaHouse, FaPenToSquare } from "react-icons/fa6";
-
 import { MdAutoFixHigh, MdWbSunny } from "react-icons/md";
 
 export default function Navbar() {
@@ -28,15 +27,15 @@ export default function Navbar() {
         <div className="flex justify-between items-center ">
           <div className="w-[18px] h-[18px] rounded-full bg-[radial-gradient(circle_at_center,#2563eb,pink)]"></div>
 
-          <button className="text-gray-muted flex justify-between items-center gap-3">
-            <span className="ml-3 text-[1.25rem]">benevolentcodegal</span>
-            <FaChevronDown size={18} />
+          <button className="text-text/80 flex justify-between items-center gap-3">
+            <span className="ml-3 text-[1.15rem]">benevolentcodegal</span>
+            <FaChevronDown size={15} />
           </button>
         </div>
       </div>
 
       {/* Second container */}
-      <div className=" flex bg-bg-gray/15 gap-[2rem] py-3 pr-4 pl-1.5 rounded-xl cursor-pointer justify-center items-center">
+      <div className=" flex bg-bg-gray/15 gap-[2rem] py-3 pr-4 pl-1.5 rounded-xl justify-center items-center">
         <button className="bg-background p-1.5 px-2 rounded-xl shadow-md backdrop-blur-md ">
           <FaHouse size={18} />
         </button>
