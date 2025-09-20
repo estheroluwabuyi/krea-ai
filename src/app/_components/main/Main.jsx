@@ -47,7 +47,7 @@ function Main() {
             </div>
 
             <div className="leading-tight">
-              <div className="flex gap-3 items-center font-semibold  text-[1.15rem]">
+              <div className="flex gap-3 items-center font-semibold  text-[1.18rem]">
                 <h2 className="">{feature.title}</h2>
                 {feature.isNew && (
                   <button className="bg-accent-blue text-background py-1 px-2.5 rounded-2xl text-[1rem] ">
@@ -55,7 +55,7 @@ function Main() {
                   </button>
                 )}
               </div>
-              <p className="text-text/80 leading-[15px] w-[220px] text-[1.1rem]">
+              <p className="text-text/80 leading-[15px] w-[200px] text-[1.14rem]">
                 {feature.description}
               </p>
             </div>
