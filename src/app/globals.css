@@ -10,12 +10,6 @@
   --color-text: #111111;
   --color-accent-blue: #2563eb;
   --color-accent-brown: #7b3f00;
-  /* --color-card: #ffffff;
-  --color-border: #d1d5db;
-  --color-text-muted: #6b7280;
-  --color-text-disabled: #9ca3af;
-  --color-accent-purple: #7c3aed;
-  --color-hover: #eff6ff; */
 }
 
 /* Global Reset  */
@@ -40,7 +34,6 @@ body {
 button {
   cursor: pointer;
   outline: none;
-  /* color: #a52a2a; */
 }
 
 button:disabled {

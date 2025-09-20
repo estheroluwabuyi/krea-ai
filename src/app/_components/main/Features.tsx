@@ -7,7 +7,7 @@ function Features() {
     // <main className="lg:px-12 ">
     <>
       <div className="flex justify-between items-center">
-        <h2 className="font-bold text-[1.5rem] lg:text-[1.95rem] my-5">
+        <h2 className="font-bold text-[1.5rem] lg:text-[1.8rem] my-5">
           Generate
         </h2>
         <button className="text-accent-blue flex gap-3 items-center font-semibold">

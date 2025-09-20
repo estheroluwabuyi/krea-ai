@@ -8,7 +8,7 @@ function Main() {
       <Features />
 
       <div className="flex justify-between items-center">
-        <h2 className="font-bold text-[1.5rem] lg:text-[1.95rem] my-5">
+        <h2 className="font-bold text-[1.5rem] lg:text-[1.8rem] mt-5 ">
           Gallery
         </h2>
 
