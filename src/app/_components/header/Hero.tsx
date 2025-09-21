@@ -41,7 +41,7 @@ function Hero() {
               transformClass="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
             />
 
-            <button className=" absolute bottom-12 right-12 text-text bg-background  py-4 px-10 rounded-[2rem] font-semibold tracking-wide hidden sm:block">
+            <button className=" absolute bottom-12 right-12 text-text bg-background  py-4 px-10 rounded-[2rem] font-semibold tracking-wide hidden sm:block z-200 hover:bg-[#1e293b] hover:text-[#f8f9fa] dark:hover:text-[#1e293b]  dark:hover:bg-[#f8f9fa] transition duration-500 ease-in-out">
               Try WAN 2.2
             </button>
           </div>
