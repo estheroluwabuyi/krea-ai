@@ -75,7 +75,7 @@ function Features() {
               </p>
             </div>
 
-            <button className="bg-gray/15 dark:bg-gray/30 px-4 py-1.5 rounded-3xl font-semibold text-[1rem] sm:px-6 sm:py-2 sm:text-[1.17rem] dark:text-text md:hidden lg:block">
+            <button className="bg-gray/15 dark:bg-gray/30 px-4 py-1.5 rounded-3xl font-semibold text-[1rem] sm:px-6 sm:py-2 sm:text-[1.17rem] dark:text-text md:hidden lg:block hover:bg-[#1e293b] hover:text-[#f8f9fa] dark:hover:text-[#1e293b]  dark:hover:bg-[#f8f9fa] transition duration-500 ease-in-out">
               Open
             </button>
           </li>
