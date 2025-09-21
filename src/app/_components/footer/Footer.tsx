@@ -8,7 +8,7 @@ export default function Footer() {
   const { isDark } = useTheme();
 
   return (
-    <footer className="px-8 bg-text/90 lg:px-12 py-5 flex justify-between dark:bg-[#334155]">
+    <footer className="px-8 bg-text/90 lg:px-12 py-5 flex justify-between dark:bg-[#334155] transition duration-500 ease-in-out">
       <div className="flex items-center gap-5">
         <div className="bg-text py-1 px-1.5 rounded-xl">
           <Image
