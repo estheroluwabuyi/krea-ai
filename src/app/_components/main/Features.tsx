@@ -4,7 +4,6 @@ import { FaChevronDown } from "react-icons/fa";
 
 function Features() {
   return (
-    // <main className="lg:px-12 ">
     <>
       <div className="flex justify-between items-center">
         <h2 className="font-bold text-[1.5rem] lg:text-[1.8rem] my-5 dark:text-text">

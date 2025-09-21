@@ -2,7 +2,6 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function Dots() {
   const dots: number[] = Array.from({ length: 9 }, (_, i) => i);
-  // const { isDark } = useTheme();
 
   return (
     <div className="flex items-center justify-between w-full lg:pr-12 mt-4">
