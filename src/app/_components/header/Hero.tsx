@@ -51,18 +51,18 @@ function Hero() {
         <div className="hidden lg:block relative bg-gradient-to-b lg:w-2/5 h-[400px] from-bg-gray/20 to-gray-muted/90 rounded-l-4xl overflow-hidden shadow-md dark:bg-gradient-to-b">
           {/* Overlay Sections */}
           <div>
-            <div className="bg-accent-blue w-[85%] h-[700px] absolute top-0 -right-6 rotate-7"></div>
+            <div className="bg-accent-blue w-[85%] h-[700px] absolute top-0 -right-6 rotate-7 transition duration-500 ease-in-out"></div>
 
-            <div className="absolute bg-background w-[85%] -rotate-3 origin-top h-[700px] -top-10 right-0">
-              <div className="bg-gradient-to-br w-full h-full from-accent-blue to-accent-blue/20"></div>
+            <div className="absolute bg-background w-[85%] -rotate-3 origin-top h-[700px] -top-10 right-0 transition duration-500 ease-in-out">
+              <div className="bg-gradient-to-br w-full h-full from-accent-blue to-accent-blue/20 transition duration-500 ease-in-out"></div>
             </div>
 
-            <div className="bg-gray-700 absolute top-1/2 -right-15 -translate-y-1/2 w-[80%] h-[70%]  -rotate-5">
-              <div className="w-full h-full  bg-gradient-to-b  from-text to-text/50"></div>
+            <div className="bg-gray-700 absolute top-1/2 -right-15 -translate-y-1/2 w-[80%] h-[70%]  -rotate-5 transition duration-500 ease-in-out">
+              <div className="w-full h-full  bg-gradient-to-b  from-text to-text/50 transition duration-500 ease-in-out"></div>
             </div>
 
             <div className=" absolute top-1/2 -right-15 -translate-y-1/2 w-[80%] h-[70%]   bg-background rotate-3">
-              <div className="w-full h-full  bg-gradient-to-bl  from-accent-brown to-accent-brown/70 grid place-items-center">
+              <div className="w-full h-full  bg-gradient-to-bl  from-accent-brown to-accent-brown/70 grid place-items-center transition duration-500 ease-in-out">
                 <Image
                   src="/images/bottle2.png"
                   alt="bottle"
