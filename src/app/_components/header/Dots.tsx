@@ -1,4 +1,3 @@
-import { useTheme } from "@/app/contexts/ThemeContext";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function Dots() {
@@ -18,7 +17,7 @@ export default function Dots() {
         ))}
       </div>
 
-      <div className="flex gap-2 dark:text-text">
+      <div className="hidden lg:flex gap-2 dark:text-text">
         <button className="bg-gray/15 dark:bg-gray/30 p-1.5 rounded-full">
           <FaChevronLeft size={18} />
         </button>

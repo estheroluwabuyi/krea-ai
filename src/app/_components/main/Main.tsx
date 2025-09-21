@@ -4,7 +4,7 @@ import { ImExit } from "react-icons/im";
 
 function Main() {
   return (
-    <main className="lg:px-12 ">
+    <main className="px-8 lg:px-12 ">
       <Features />
 
       <div className="flex justify-between items-center dark:text-text">

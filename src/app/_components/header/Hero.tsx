@@ -5,10 +5,10 @@ import Dots from "./Dots";
 function Hero() {
   return (
     // 1st Hero Section
-    <div className="lg:pl-12 lg:pr-1 pt-10 pb-5">
-      <div className="flex justify-center  gap-12  ">
-        <div className=" w-[60%] h-[400px]  rounded-4xl shadow-md">
-          <div className="relative w-full h-[400px] flex overflow-hidden rounded-4xl">
+    <div className="px-8 lg:pl-12 lg:pr-1 pt-10 pb-5">
+      <div className="flex flex-col lg:flex-row justify-center  gap-12  ">
+        <div className="w-full lg:w-3/5  lg:h-[400px]  rounded-4xl shadow-md">
+          <div className="relative w-full h-[400px] flex overflow-hidden rounded-xl lg:rounded-4xl">
             <Image
               src="/images/model4.jpg"
               alt="Model"
@@ -41,14 +41,14 @@ function Hero() {
               transformClass="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
             />
 
-            <button className="absolute bottom-12 right-12 text-text bg-background  py-4 px-10 rounded-[2rem] font-semibold tracking-wide">
+            <button className=" absolute bottom-12 right-12 text-text bg-background  py-4 px-10 rounded-[2rem] font-semibold tracking-wide hidden sm:block">
               Try WAN 2.2
             </button>
           </div>
         </div>
 
         {/*2nd Hero Section */}
-        <div className="relative bg-gradient-to-b w-[40%] h-[400px] from-bg-gray/20 to-gray-muted/90 rounded-l-4xl overflow-hidden shadow-md dark:bg-gradient-to-b">
+        <div className="hidden lg:block relative bg-gradient-to-b lg:w-2/5 h-[400px] from-bg-gray/20 to-gray-muted/90 rounded-l-4xl overflow-hidden shadow-md dark:bg-gradient-to-b">
           {/* Overlay Sections */}
           <div>
             <div className="bg-accent-blue w-[85%] h-[700px] absolute top-0 -right-6 rotate-7"></div>

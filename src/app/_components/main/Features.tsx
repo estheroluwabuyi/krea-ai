@@ -15,11 +15,11 @@ function Features() {
         </button>
       </div>
 
-      <ul className="w-full grid grid-cols-4 gap-x-10 gap-y-7 pb-10">
+      <ul className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10 lg:gap-y-7 pb-10">
         {features?.map((feature) => (
           <li
             key={feature.id}
-            className="flex  justify-center gap-3 items-center"
+            className="flex  lg:justify-center gap-3 items-center max-w-3xl md:w-[220px] lg:w-full "
           >
             <div>
               {feature.img ? (
@@ -70,12 +70,12 @@ function Features() {
                   </div>
                 )}
               </div>
-              <p className="text-text/80 leading-[15px] w-[200px] text-[1.14rem] ">
+              <p className="text-text/80 leading-[15px] w-full md:w-[200px] text-[1.14rem]">
                 {feature.description}
               </p>
             </div>
 
-            <button className="bg-gray/15 dark:bg-gray/30 px-6 py-2 rounded-4xl font-semibold  text-[1.17rem] dark:text-text">
+            <button className="bg-gray/15 dark:bg-gray/30 px-4 py-1.5 rounded-3xl font-semibold text-[1rem] sm:px-6 sm:py-2 sm:text-[1.17rem] dark:text-text md:hidden lg:block">
               Open
             </button>
           </li>
