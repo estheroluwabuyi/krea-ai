@@ -47,17 +47,17 @@ export default function Navbar() {
           <FaHouse size={18} />
         </button>
 
-        <button className="p-1.5">
+        <button className="btn-icon">
           <FaRegImage size={18} />
         </button>
-        <button className="p-1.5">
+        <button className="btn-icon">
           <FaVideo size={18} />
         </button>
-        <button className="-rotate-90 p-1.5 ">
+        <button className="btn-icon">
           <MdAutoFixHigh size={18} />
         </button>
 
-        <button className=" p-1.5">
+        <button className="btn-icon">
           <Image
             src={isDark ? "/images/pen-white.svg" : "/images/pen.svg"}
             alt="pen"
@@ -67,23 +67,23 @@ export default function Navbar() {
           />
         </button>
 
-        <button className="p-1.5 ">
+        <button className="btn-icon">
           <FaPenToSquare size={18} />
         </button>
 
-        <button className="p-1.5 ">
+        <button className="btn-icon">
           <FaFolder size={18} />
         </button>
       </div>
 
       {/* Third Container */}
       <div className="flex justify-between items-center gap-[2rem]">
-        <button className="flex  bg-gray/15 justify-between items-center gap-2 p-1.5 rounded-2xl dark:bg-gray/30">
+        <button className="flex  bg-gray/15 justify-between items-center gap-2 p-1.5 rounded-2xl dark:bg-gray/30 hover:bg-gray/40 transition-all duration-500 ease-in-out">
           <IoMdPhotos size={18} />
           <span className="hidden md:inline text-[1.25rem]">Gallery</span>
         </button>
 
-        <button className="flex  bg-gray/15 justify-between items-center gap-2 p-1.5 rounded-2xl dark:bg-gray/30">
+        <button className="flex  bg-gray/15 justify-between items-center gap-2 p-1.5 rounded-2xl dark:bg-gray/30 hover:bg-gray/40 hover:bg-gray/40 transition-all duration-500 ease-in-out">
           <BiSupport size={18} />
           <span className="hidden md:inline text-[1.25rem]">Support</span>
         </button>
