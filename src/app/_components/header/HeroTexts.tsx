@@ -14,8 +14,8 @@ function HeroTexts({
   transformClass,
 }: HeroTextsProps) {
   return (
-    <div className="absolute top-0 left-0 h-full w-full text-background z-100">
-      <h3 className="uppercase absolute top-10 left-10 text-[1.2rem] tracking-wide  text-background/90 font-medium">
+    <div className="absolute top-0 left-0 h-full w-full text-background dark:text-text z-100 ">
+      <h3 className="uppercase absolute top-10 left-10 text-[1.2rem] tracking-wide  text-background/90 font-medium dark:text-text">
         New Image Model
       </h3>
       <h1
@@ -25,11 +25,11 @@ function HeroTexts({
       </h1>
 
       <div className="absolute bottom-10 left-10">
-        <h2 className="text-[1.5rem] lg:text-[2.5rem] font-semibold pb-2 font-monda">
+        <h2 className="text-[1.5rem] lg:text-[2.3rem] font-semibold pb-2 font-monda">
           {bottomTextsHeader}
         </h2>
         <p
-          className={`text-[1.25rem] text-background/90 ${textClass} tracking-wide `}
+          className={`text-[1.25rem] text-background/90 ${textClass} tracking-wide dark:text-text`}
         >
           {bottomTextsTexts}
         </p>

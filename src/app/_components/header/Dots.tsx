@@ -1,7 +1,9 @@
+import { useTheme } from "@/app/contexts/ThemeContext";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function Dots() {
   const dots: number[] = Array.from({ length: 9 }, (_, i) => i);
+  // const { isDark } = useTheme();
 
   return (
     <div className="flex items-center justify-between w-full lg:pr-12 mt-4">
@@ -10,17 +12,17 @@ export default function Dots() {
           <div
             key={dot}
             className={`w-3 h-3 rounded-full ${
-              dot === 0 ? "bg-text" : "bg-bg-gray/30"
+              dot === 0 ? "bg-text" : "bg-gray/30 dark:bg-gray/30"
             }`}
           ></div>
         ))}
       </div>
 
-      <div className="flex gap-2 ">
-        <button className="bg-bg-gray/15 p-1.5 rounded-full">
+      <div className="flex gap-2 dark:text-text">
+        <button className="bg-gray/15 dark:bg-gray/30 p-1.5 rounded-full">
           <FaChevronLeft size={18} />
         </button>
-        <button className="bg-bg-gray/15 p-1.5 rounded-full">
+        <button className="bg-gray/15 dark:bg-gray/30 p-1.5 rounded-full">
           <FaChevronRight size={18} />
         </button>
       </div>

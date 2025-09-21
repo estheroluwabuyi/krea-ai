@@ -48,7 +48,7 @@ function Hero() {
         </div>
 
         {/*2nd Hero Section */}
-        <div className="relative bg-gradient-to-b w-[40%] h-[400px] from-bg-gray/20 to-gray-muted/90 rounded-l-4xl overflow-hidden shadow-md">
+        <div className="relative bg-gradient-to-b w-[40%] h-[400px] from-bg-gray/20 to-gray-muted/90 rounded-l-4xl overflow-hidden shadow-md dark:bg-gradient-to-b">
           {/* Overlay Sections */}
           <div>
             <div className="bg-accent-blue w-[85%] h-[700px] absolute top-0 -right-6 rotate-7"></div>
