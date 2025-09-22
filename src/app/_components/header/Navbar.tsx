@@ -23,14 +23,13 @@ export default function Navbar() {
       {/* First container */}
       <div className="flex justify-between items-center  gap-[2.5rem]">
         <Image
-          src={isDark ? "/images/logo-light.svg" : "/images/logo.svg"}
+          src={!isDark ? "/images/logo.svg" : "/images/logo-light.svg"}
           alt="logo"
-          width={25}
-          height={25}
+          width={30}
+          height={30}
           priority
-          className="w-[25px] h-[25px]"
+          className="w-[25px] h-[25px] "
         />
-
         <div className="flex justify-between items-center ">
           <div className="w-[18px] h-[18px] rounded-full bg-[radial-gradient(circle_at_center,#2563eb,pink)]"></div>
 
@@ -43,7 +42,7 @@ export default function Navbar() {
 
       {/* Second container */}
       <div className="hidden lg:flex  bg-gray/15 dark:bg-gray/30 gap-[2rem] py-3 pr-4 pl-1.5 rounded-xl justify-center items-center">
-        <button className="bg-background p-1.5 px-2 rounded-xl shadow-md backdrop-blur-md ">
+        <button className="bg-background p-1.5 px-2 rounded-xl shadow-md backdrop-blur-md transition-all duration-500 ease-in-out">
           <FaHouse size={18} />
         </button>
 

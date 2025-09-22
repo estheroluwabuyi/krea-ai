@@ -17,7 +17,7 @@ export default function Footer() {
             width={30}
             height={30}
             priority
-            className="w-[30px] h-[30px] "
+            className="w-[25px] h-[25px] "
           />
         </div>
 
