@@ -5,7 +5,10 @@ import Dots from "./Dots";
 function Hero() {
   return (
     // 1st Hero Section
-    <div className="px-8 lg:pl-12 lg:pr-1 pt-15 lg:pt-25 pb-5">
+    <div
+      className="px-8 lg:pl-12 lg:pr-1 pt-15
+     lg:pt-25 pb-5"
+    >
       <div className="flex flex-col lg:flex-row justify-center  gap-15  ">
         <div className="w-full lg:w-3/5  lg:h-[400px]  rounded-4xl shadow-md">
           <div className="relative w-full h-[400px] flex overflow-hidden rounded-xl lg:rounded-4xl">
