@@ -60,8 +60,6 @@ textarea:-webkit-autofill {
 body {
   font-size: 1.3rem;
   font-family: var(--font-inter);
-  background-color: var(--color-background);
-  transition: background-color 500ms ease-in-out;
 }
 
 button {

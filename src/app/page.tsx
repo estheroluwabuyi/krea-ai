@@ -7,12 +7,9 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 export default function Home() {
   return (
     <ThemeProvider>
-      <div>
-        <div className="min-h-screen">
-          <Header />
-          <Main />
-        </div>
-
+      <div className="bg-background transition-bg duration-500 ease-in-out">
+        <Header />
+        <Main />
         <Footer />
       </div>
     </ThemeProvider>
