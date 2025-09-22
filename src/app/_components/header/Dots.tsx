@@ -18,10 +18,10 @@ export default function Dots() {
 
       <div className="hidden lg:flex gap-2 dark:text-text">
         <button className="bg-gray/15 dark:bg-gray/30 p-1.5 rounded-full">
-          <FaChevronLeft size={18} />
+          <FaChevronLeft size={17} />
         </button>
         <button className="bg-gray/15 dark:bg-gray/30 p-1.5 rounded-full">
-          <FaChevronRight size={18} />
+          <FaChevronRight size={17} />
         </button>
       </div>
     </div>
