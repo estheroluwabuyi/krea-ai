@@ -52,7 +52,7 @@ export default function Navbar() {
         <button className="btn-icon">
           <FaVideo size={17} />
         </button>
-        <button className="btn-icon -rotate-90">
+        <button className="hover:bg-background py-3 px-2 rounded-xl hover:shadow-md  transition-all duration-500 ease-in-out -rotate-90">
           <MdAutoFixHigh size={17} />
         </button>
 
