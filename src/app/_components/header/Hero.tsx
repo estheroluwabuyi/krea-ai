@@ -10,7 +10,7 @@ function Hero() {
         <div className="w-full lg:w-3/5  lg:h-[400px]  rounded-4xl shadow-md">
           <div className="relative w-full h-[400px] flex overflow-hidden rounded-xl lg:rounded-4xl">
             <Image
-              src="/images/model4.jpg"
+              src="/images/model.jpg"
               alt="Model"
               className="object-cover w-1/3 h-full"
               width={400}
@@ -18,7 +18,7 @@ function Hero() {
               priority
             />
             <Image
-              src="/images/landscape4.jpg"
+              src="/images/landscape.jpg"
               alt="Landscape"
               className="object-cover w-1/3 h-full"
               width={400}
@@ -26,7 +26,7 @@ function Hero() {
               priority
             />
             <Image
-              src="/images/naruto3.jpg"
+              src="/images/naruto.jpg"
               alt="Naruto"
               className="object-cover w-1/3 h-full"
               width={400}
@@ -64,7 +64,7 @@ function Hero() {
             <div className=" absolute top-1/2 -right-15 -translate-y-1/2 w-[80%] h-[70%]   bg-background rotate-3">
               <div className="w-full h-full  bg-gradient-to-bl  from-accent-brown to-accent-brown/70 grid place-items-center transition duration-500 ease-in-out">
                 <Image
-                  src="/images/bottle2.png"
+                  src="/images/bottle.png"
                   alt="bottle"
                   width={150}
                   height={300}
